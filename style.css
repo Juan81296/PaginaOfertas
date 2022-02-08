@@ -1,9 +1,10 @@
 
+
 .navbar-brand{
     font-family: Pristina;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 40px;
     line-height: 144.69%;
     color: #2E3A59;
 }
@@ -104,14 +105,14 @@
     line-height: 144.69%;
     color: #2E3A59;
     position: absolute;
-    width: 73px;
+    width: 100px;
     height: 17px;
     top: 5px;
     left: 55px;
 }
 .globoNuevoCliente{
     position: absolute;
-    width: 74px;
+    width: 100px;
     top: 25px;
     left: 55px;
     height: 17px;
@@ -158,7 +159,6 @@
     top: 100px;
     left: 60px;
 }
-
 /*BENEFICIOS*/
 
 .beneficios{
@@ -173,7 +173,7 @@
 }
 .beneficiosTitulo{
     position: relative;
-    width: 509px;
+    width: max-content;
     height: 52px;
     top: 36px;
     left: 547px;
@@ -306,6 +306,10 @@
 }
 
 /*PASOS*/
+#pasos{
+ 
+
+}
 
 .pasosTitulo{
     font-family: Roboto;
@@ -315,7 +319,7 @@
     line-height: 144.69%;
     color: #2E3A59;
     position: absolute;
-    width: 404px;
+    width: max-content;
     height: 52px;
     left: 720px;
     top: 1162px;
@@ -751,7 +755,7 @@
 
  .preguntasFrecuentesTitulo{
     position: absolute;
-    width: 348px;
+    width: max-content;
     height: 52px;
     top: 2680px;
     left: 720px;
@@ -990,7 +994,7 @@
     width: 40.83px;
     height: 40.83px;
     left: 1150px;
-    top: 3970px; 
+  top: 3970px; 
 
 }
 .facebook{
@@ -1001,3 +1005,314 @@
     top: 3970px; 
 
 }
+/*ADAPTADO A TABLET CON MEDIA QUERIES*/
+
+@media only screen and (min-width:321px) and (max-width:810px){ 
+
+
+    /*NAV*/ 
+    #nombrePagina{
+        position: relative;
+        right:50px;
+    }
+    .navbar-nav{
+        position: absolute;
+        right: 250px;
+        bottom: 0px;
+        width: max-content;
+    }
+
+    /*HEADER*/
+      .regtangle1{
+          position: absolute;
+          top: 350px;
+          left: 350px;
+          height: 250px;
+          width: 250px;
+      }
+      .headerImg{
+        position: absolute;
+        top: 282px;
+        left: 301px;
+        height: 360px;
+        width: 350px;
+    }
+    .globoCliente{
+        position: absolute;
+        top: 500px;
+        left: 220px;
+        width: 150px;
+        height: 45px;
+    }
+    .globoNombre,.globoNuevoCliente{
+        font-size: 10px;
+    }
+    .nuevoCliente{
+        position: absolute;
+        top: 5px;
+    }
+    .globoEstadisticas{
+        left: 570px;
+       top: 500px;
+    }
+    /*BENEFICIOS*/
+    .beneficios{
+        width: 750px;
+        position: absolute;
+        left: 35px;
+    }
+    .carrito{
+        width: 280px;
+        height: 300px;
+        margin-top: 140px;
+    }
+    .regtanguloAzul2{
+        left: 70px;
+    }
+    .regtanguloRojo1{
+        left: 120px;
+    }
+    .miniCuadradoAzul2{
+        left: 600px;
+    }
+    .miniCuadradoRojo2{
+        left: 650px;
+    }
+    .beneficiosTitulo{
+        left: 150px;
+        font-size: 20px;
+    }
+    .tick1{
+        left: 310px;
+        top: 110px;
+    }
+    .beneficio1{
+        left: 350px;
+        top: 100px;
+        font-size: 15px;
+    }
+    .tick2{
+        left: 310px;
+        top: 180px;
+    }
+    .beneficio2{
+        font-size: 15px;
+        left: 350px;
+        top: 170px;
+    }
+    .tick3{
+        left: 310px;
+        top: 250px ;
+    }
+    .beneficio3{
+        font-size: 15px;
+        left: 350px;
+        top: 240px;
+    }
+    .tick4{
+        left: 310px;
+        top: 320px;
+    }
+    .beneficio4{
+        font-size: 15px;
+        left: 350px;
+        top: 310px;
+    }
+    /*PASOS*/
+    .pasosTitulo{
+        font-size: 30px;
+        left: 250px;
+    }
+    .linea{
+        left: 120px;
+        width: 620px;
+        top: 1340px;
+    }
+    .primerPaso{
+        left: 110px;
+        width: 50px;
+        height: 50px;
+    }
+    .uno{
+        left: 126px;
+        top: 1320px;
+        font-size: 30px;
+    }
+    .unoDescripcion{
+        width: 150px;
+        left: 60px;
+        top: 1400px;
+        font-size: 15px;
+
+    }
+    .segundoPaso{
+        left: 400px;
+        width: 50px;
+        height: 50px;
+    }
+    .dos{
+        left: 416px;
+        top: 1320px;
+        font-size: 30px;
+    }
+    .dosDescripcion{
+        width: 150px;
+        left: 350px;
+        top: 1400px;
+        font-size: 15px;
+    }
+    .tercerPaso{
+        left: 690px;
+        width: 50px;
+        height: 50px;
+    }
+    .tres{
+        left: 706px;
+        top: 1320px;
+        font-size: 30px;
+    }
+    .tresDescripcion{
+        width: 150px;
+        left: 640px;
+        top: 1400px;
+        font-size: 15px;
+    }
+    /*TESTIMONIOS*/
+    .testimoniosTitulo{
+        left: 300px;
+    }
+    .testimoniosSubtitulo{
+        left: 100px;
+    }
+    .regtangle23{
+        width: 500px;
+        height:500px;
+        left: 250px;
+        top: 2200px;
+    }
+    .comillaVacia1{
+        left: 660px;
+        width: 50px;
+        height: 80px;
+        top: 2500px;
+    }
+    .comillaVacia2{
+        left: 720px;
+        width: 50px;
+        height: 80px;
+        top: 2500px;
+    }
+    .card1,.card2,.card3,.card4{
+        left: 150px;
+    }
+    .card2{
+        top: 2200px;
+    }
+    .card3{
+        top: 2550px;
+    }
+    .card4{
+        top: 2900px;
+    }
+    /*PREGUNTAS FRECUENTES*/
+    .preguntasFrecuentesTitulo{
+        left: 250px;
+        width: 500px;
+        top: 3300px;
+      }
+    .cuadraditoAzul4{
+        left: 670px;
+        top: 3530px;
+    }
+    .cuadraditoRojo4{
+        left: 630px;
+        top: 3500px;
+    }
+    .miniCuadradoAzul4{
+        left: 650px;
+    }
+    .miniCuadradoRojo4{
+        left: 600px;
+    }
+    .miniCuadrado1,.miniCuadrado2,.miniCuadrado3{
+        left: 30px;
+    }
+    .primerPregunta,.segundaPregunta,.tercerPregunta{
+        left: 60px;
+        font-size: 20px;
+    }
+    .primerRespuesta,.segundaRespuesta,.tercerRespuesta{
+        left: 60px;
+        font-size: 20px;
+        width: 600px;
+    }
+    /*PRIMER PREGUNTA*/
+    .miniCuadrado1,.primerPregunta{
+        top: 3400px;
+    }
+    .primerRespuesta{
+        top: 3450px;
+    }
+    /*SEGUNDA PREGUNTA*/
+    .miniCuadrado2,.segundaPregunta{
+        top: 3550px;
+    }
+    .segundaRespuesta{
+        top: 3600px;
+    }
+    /*TERCERA PREGUNTA*/
+    .miniCuadrado3,.tercerPregunta{
+        top: 3700px;
+    }
+    .tercerRespuesta{
+        top: 3750px;
+    }
+    .finRespuestas{
+        left: 200px;
+        width: 500px;
+        top: 3900px;
+    }
+    /*FOOTER*/
+    .fondoFooter{
+        width: 810px;
+        left: 0px;
+        top: 4150px;
+        height: 700px;
+    }
+    .imgFooter{
+        left: 200px;
+        top: 4000px;
+    }
+    .cuadraditoAzul4{
+        top: 4100px;
+        left: 50px;
+    }
+    .cuadraditoRojo4{
+        top: 4070px;
+        left: 110px;
+    }
+    .footerTitulo{
+        top: 4300px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .datosContacto{
+        top: 4300px;
+        left: 500px;
+    }
+    .notebook{
+        top: 4450px;
+        left: 420px;
+    }
+    .instagram,.facebook,.linkedin{
+        top: 4430px;
+    }
+    .instagram{
+        left: 500px;
+    }
+    .linkedin{
+        left: 600px;
+    }
+    .facebook{
+        left: 700px;
+    }
