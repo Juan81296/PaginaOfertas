@@ -22,6 +22,23 @@
     left: 469px;
     top: 21px;
 }
+.header{
+    width: 100%;
+    min-height: 100vh;
+}
+.header:before {
+    content: '';
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bg-light{
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
 /*HEADER*/
 .titulo{
     left: 80px;
@@ -1011,325 +1028,16 @@
     top: 3970px; 
 
 }
+.text-header{
+    min-height: 50vh;
+}
 .navg a {
     padding: 10px 15px;
     text-align: center;
 }
 /*ADAPTADO A TABLET CON MEDIA QUERIES*/
 
-@media only screen and (min-width:321px) and (max-width:810px){ 
-
-
-    /*NAV*/ 
-    #nombrePagina{
-        position: relative;
-        right:50px;
-        left: 30px;
-        top: 20px;
-    }
-    .navbar-nav{
-        right: 250px;
-        bottom: 0px;
-        width: max-content;
-    }
-
-    /*HEADER*/
-      .regtangle1{
-          position: absolute;
-          top: 350px;
-          left: 350px;
-          height: 250px;
-          width: 250px;
-      }
-      .headerImg{
-        position: absolute;
-        top: 282px;
-        left: 301px;
-        height: 360px;
-        width: 350px;
-    }
-    .globoCliente{
-        position: absolute;
-        top: 500px;
-        left: 220px;
-        width: 150px;
-        height: 45px;
-    }
-    .globoNombre,.globoNuevoCliente{
-        font-size: 10px;
-    }
-    .nuevoCliente{
-        position: absolute;
-        top: 5px;
-    }
-    .globoEstadisticas{
-        left: 570px;
-       top: 500px;
-    }
-    /*BENEFICIOS*/
-    .beneficios{
-        width: 750px;
-        position: absolute;
-        left: 35px;
-    }
-    .carrito{
-        width: 280px;
-        height: 300px;
-        margin-top: 140px;
-    }
-    .regtanguloAzul2{
-        left: 70px;
-    }
-    .regtanguloRojo1{
-        left: 120px;
-    }
-    .miniCuadradoAzul2{
-        left: 600px;
-    }
-    .miniCuadradoRojo2{
-        left: 650px;
-    }
-    .beneficiosTitulo{
-        left: 150px;
-        font-size: 20px;
-    }
-    .tick1{
-        left: 310px;
-        top: 110px;
-    }
-    .beneficio1{
-        left: 350px;
-        top: 100px;
-        font-size: 15px;
-    }
-    .tick2{
-        left: 310px;
-        top: 180px;
-    }
-    .beneficio2{
-        font-size: 15px;
-        left: 350px;
-        top: 170px;
-    }
-    .tick3{
-        left: 310px;
-        top: 250px ;
-    }
-    .beneficio3{
-        font-size: 15px;
-        left: 350px;
-        top: 240px;
-    }
-    .tick4{
-        left: 310px;
-        top: 320px;
-    }
-    .beneficio4{
-        font-size: 15px;
-        left: 350px;
-        top: 310px;
-    }
-    /*PASOS*/
-    .pasosTitulo{
-        font-size: 30px;
-        left: 250px;
-    }
-    .linea{
-        left: 120px;
-        width: 620px;
-        top: 1340px;
-    }
-    .primerPaso{
-        left: 110px;
-        width: 50px;
-        height: 50px;
-    }
-    .uno{
-        left: 126px;
-        top: 1320px;
-        font-size: 30px;
-    }
-    .unoDescripcion{
-        width: 150px;
-        left: 60px;
-        top: 1400px;
-        font-size: 15px;
-
-    }
-    .segundoPaso{
-        left: 400px;
-        width: 50px;
-        height: 50px;
-    }
-    .dos{
-        left: 416px;
-        top: 1320px;
-        font-size: 30px;
-    }
-    .dosDescripcion{
-        width: 150px;
-        left: 350px;
-        top: 1400px;
-        font-size: 15px;
-    }
-    .tercerPaso{
-        left: 690px;
-        width: 50px;
-        height: 50px;
-    }
-    .tres{
-        left: 706px;
-        top: 1320px;
-        font-size: 30px;
-    }
-    .tresDescripcion{
-        width: 150px;
-        left: 640px;
-        top: 1400px;
-        font-size: 15px;
-    }
-    /*TESTIMONIOS*/
-    .testimoniosTitulo{
-        left: 300px;
-    }
-    .testimoniosSubtitulo{
-        left: 100px;
-    }
-    .regtangle23{
-        width: 500px;
-        height:500px;
-        left: 250px;
-        top: 2200px;
-    }
-    .comillaVacia1{
-        left: 660px;
-        width: 50px;
-        height: 80px;
-        top: 2500px;
-    }
-    .comillaVacia2{
-        left: 720px;
-        width: 50px;
-        height: 80px;
-        top: 2500px;
-    }
-    .card1,.card2,.card3,.card4{
-        left: 150px;
-    }
-    .card2{
-        top: 2200px;
-    }
-    .card3{
-        top: 2550px;
-    }
-    .card4{
-        top: 2900px;
-    }
-    /*PREGUNTAS FRECUENTES*/
-    .preguntasFrecuentesTitulo{
-        left: 250px;
-        width: 500px;
-        top: 3300px;
-      }
-    .cuadraditoAzul4{
-        left: 670px;
-        top: 3530px;
-    }
-    .cuadraditoRojo4{
-        left: 630px;
-        top: 3500px;
-    }
-    .miniCuadradoAzul4{
-        left: 650px;
-    }
-    .miniCuadradoRojo4{
-        left: 600px;
-    }
-    .miniCuadrado1,.miniCuadrado2,.miniCuadrado3{
-        left: 30px;
-    }
-    .primerPregunta,.segundaPregunta,.tercerPregunta{
-        left: 60px;
-        font-size: 20px;
-    }
-    .primerRespuesta,.segundaRespuesta,.tercerRespuesta{
-        left: 60px;
-        font-size: 20px;
-        width: 600px;
-    }
-    /*PRIMER PREGUNTA*/
-    .miniCuadrado1,.primerPregunta{
-        top: 3400px;
-    }
-    .primerRespuesta{
-        top: 3450px;
-    }
-    /*SEGUNDA PREGUNTA*/
-    .miniCuadrado2,.segundaPregunta{
-        top: 3550px;
-    }
-    .segundaRespuesta{
-        top: 3600px;
-    }
-    /*TERCERA PREGUNTA*/
-    .miniCuadrado3,.tercerPregunta{
-        top: 3700px;
-    }
-    .tercerRespuesta{
-        top: 3750px;
-    }
-    .finRespuestas{
-        left: 200px;
-        width: 500px;
-        top: 3900px;
-    }
-    /*FOOTER*/
-    .fondoFooter{
-        width: 810px;
-        left: 0px;
-        top: 4150px;
-        height: 700px;
-    }
-    .imgFooter{
-        left: 200px;
-        top: 4000px;
-    }
-    .cuadraditoAzul4{
-        top: 4100px;
-        left: 50px;
-    }
-    .cuadraditoRojo4{
-        top: 4070px;
-        left: 110px;
-    }
-    .footerTitulo{
-        top: 4300px;
-        left: 10px;
-        font-size: 30px;
-    }
-    .datosContacto{
-        top: 4300px;
-        left: 500px;
-    }
-    .notebook{
-        top: 4450px;
-        left: 420px;
-    }
-    .instagram,.facebook,.linkedin{
-        top: 4430px;
-    }
-    .instagram{
-        left: 500px;
-    }
-    .linkedin{
-        left: 600px;
-    }
-    .facebook{
-        left: 700px;
-    }
-
-@media only screen and (min-width:321px) and (max-width:810px){ 
-
+@media only screen and (min-width:577px) and (max-width:810px){ 
 
     /*NAV*/ 
     #nombrePagina{
@@ -1638,312 +1346,351 @@
     .facebook{
         left: 700px;
     }
-    @media only screen and (max-width:321px){ 
-        /*NAV*/ 
-        #nombrePagina{
-            position: relative;
-            right:50px;
-            left: 30px;
-            top: 20px;
-        }
-        .navbar-nav{
-            right: 250px;
-            bottom: 0px;
-            width: max-content;
-        }
-    
-        /*HEADER*/
-          .regtangle1{
-              position: absolute;
-              top: 350px;
-              left: 350px;
-              height: 250px;
-              width: 250px;
-          }
-          .headerImg{
-            position: absolute;
-            top: 282px;
-            left: 301px;
-            height: 360px;
-            width: 350px;
-        }
-        .globoCliente{
-            position: absolute;
-            top: 500px;
-            left: 220px;
-            width: 150px;
-            height: 45px;
-        }
-        .globoNombre,.globoNuevoCliente{
-            font-size: 10px;
-        }
-        .nuevoCliente{
-            position: absolute;
-            top: 5px;
-        }
-        .globoEstadisticas{
-            left: 570px;
-           top: 500px;
-        }
-        /*BENEFICIOS*/
-        .beneficios{
-            width: 750px;
-            position: absolute;
-            left: 35px;
-        }
-        .carrito{
-            width: 280px;
-            height: 300px;
-            margin-top: 140px;
-        }
-        .regtanguloAzul2{
-            left: 70px;
-        }
-        .regtanguloRojo1{
-            left: 120px;
-        }
-        .miniCuadradoAzul2{
-            left: 600px;
-        }
-        .miniCuadradoRojo2{
-            left: 650px;
-        }
-        .beneficiosTitulo{
-            left: 150px;
-            font-size: 20px;
-        }
-        .tick1{
-            left: 310px;
-            top: 110px;
-        }
-        .beneficio1{
-            left: 350px;
-            top: 100px;
-            font-size: 15px;
-        }
-        .tick2{
-            left: 310px;
-            top: 180px;
-        }
-        .beneficio2{
-            font-size: 15px;
-            left: 350px;
-            top: 170px;
-        }
-        .tick3{
-            left: 310px;
-            top: 250px ;
-        }
-        .beneficio3{
-            font-size: 15px;
-            left: 350px;
-            top: 240px;
-        }
-        .tick4{
-            left: 310px;
-            top: 320px;
-        }
-        .beneficio4{
-            font-size: 15px;
-            left: 350px;
-            top: 310px;
-        }
-        /*PASOS*/
-        .pasosTitulo{
-            font-size: 30px;
-            left: 250px;
-        }
-        .linea{
-            left: 120px;
-            width: 620px;
-            top: 1340px;
-        }
-        .primerPaso{
-            left: 110px;
-            width: 50px;
-            height: 50px;
-        }
-        .uno{
-            left: 126px;
-            top: 1320px;
-            font-size: 30px;
-        }
-        .unoDescripcion{
-            width: 150px;
-            left: 60px;
-            top: 1400px;
-            font-size: 15px;
-    
-        }
-        .segundoPaso{
-            left: 400px;
-            width: 50px;
-            height: 50px;
-        }
-        .dos{
-            left: 416px;
-            top: 1320px;
-            font-size: 30px;
-        }
-        .dosDescripcion{
-            width: 150px;
-            left: 350px;
-            top: 1400px;
-            font-size: 15px;
-        }
-        .tercerPaso{
-            left: 690px;
-            width: 50px;
-            height: 50px;
-        }
-        .tres{
-            left: 706px;
-            top: 1320px;
-            font-size: 30px;
-        }
-        .tresDescripcion{
-            width: 150px;
-            left: 640px;
-            top: 1400px;
-            font-size: 15px;
-        }
-        /*TESTIMONIOS*/
-        .testimoniosTitulo{
-            left: 300px;
-        }
-        .testimoniosSubtitulo{
-            left: 100px;
-        }
-        .regtangle23{
-            width: 500px;
-            height:500px;
-            left: 250px;
-            top: 2200px;
-        }
-        .comillaVacia1{
-            left: 660px;
-            width: 50px;
-            height: 80px;
-            top: 2500px;
-        }
-        .comillaVacia2{
-            left: 720px;
-            width: 50px;
-            height: 80px;
-            top: 2500px;
-        }
-        .card1,.card2,.card3,.card4{
-            left: 150px;
-        }
-        .card2{
-            top: 2200px;
-        }
-        .card3{
-            top: 2550px;
-        }
-        .card4{
-            top: 2900px;
-        }
-        /*PREGUNTAS FRECUENTES*/
-        .preguntasFrecuentesTitulo{
-            left: 250px;
-            width: 500px;
-            top: 3300px;
-          }
-        .cuadraditoAzul4{
-            left: 670px;
-            top: 3530px;
-        }
-        .cuadraditoRojo4{
-            left: 630px;
-            top: 3500px;
-        }
-        .miniCuadradoAzul4{
-            left: 650px;
-        }
-        .miniCuadradoRojo4{
-            left: 600px;
-        }
-        .miniCuadrado1,.miniCuadrado2,.miniCuadrado3{
-            left: 30px;
-        }
-        .primerPregunta,.segundaPregunta,.tercerPregunta{
-            left: 60px;
-            font-size: 20px;
-        }
-        .primerRespuesta,.segundaRespuesta,.tercerRespuesta{
-            left: 60px;
-            font-size: 20px;
-            width: 600px;
-        }
-        /*PRIMER PREGUNTA*/
-        .miniCuadrado1,.primerPregunta{
-            top: 3400px;
-        }
-        .primerRespuesta{
-            top: 3450px;
-        }
-        /*SEGUNDA PREGUNTA*/
-        .miniCuadrado2,.segundaPregunta{
-            top: 3550px;
-        }
-        .segundaRespuesta{
-            top: 3600px;
-        }
-        /*TERCERA PREGUNTA*/
-        .miniCuadrado3,.tercerPregunta{
-            top: 3700px;
-        }
-        .tercerRespuesta{
-            top: 3750px;
-        }
-        .finRespuestas{
-            left: 200px;
-            width: 500px;
-            top: 3900px;
-        }
-        /*FOOTER*/
-        .fondoFooter{
-            width: 810px;
-            left: 0px;
-            top: 4150px;
-            height: 700px;
-        }
-        .imgFooter{
-            left: 200px;
-            top: 4000px;
-        }
-        .cuadraditoAzul4{
-            top: 4100px;
-            left: 50px;
-        }
-        .cuadraditoRojo4{
-            top: 4070px;
-            left: 110px;
-        }
-        .footerTitulo{
-            top: 4300px;
-            left: 10px;
-            font-size: 30px;
-        }
-        .datosContacto{
-            top: 4300px;
-            left: 500px;
-        }
-        .notebook{
-            top: 4450px;
-            left: 420px;
-        }
-        .instagram,.facebook,.linkedin{
-            top: 4430px;
-        }
-        .instagram{
-            left: 500px;
-        }
-        .linkedin{
-            left: 600px;
-        }
-        .facebook{
-            left: 700px;
-        }
-    
+}
+@media only screen and (max-width:576px){
+    .titulo{
+        width: 320px;
+        font-size: 36px;
+    }
+    .subtitulo{
+        width: 360px;
+        font-size: 36px;
+    }
+    .text-header{
+        min-height: 60vh;
+    }
+    .pie{
+        font-size: 18px;    
+    }
+    .navbar-brand{
+        font-size: 15px!important;
+    }
+    /*HEADER*/
+    .regtangle1{
+        position: absolute;
+        width: 310.59px;
+        height: 310.59px;
+        left: 2.929rem;
+        top: 30.988rem ;
+        border-radius: 23.7256px;
+        transform: rotate(50.34deg);
+    }
+    .headerImg{
+        position: absolute;
+        width: 403.76px;
+        height: 504.99px;
+        left: 22.63px;
+        top: 370.14px;
+    }
+    .globoCliente{
+        position: absolute;
+        width: 140.24px;
+        height: 44.26px;
+        left: 26px;
+        top: 486.28px;
+    }
+    .nuevoCliente{
+        top: 5px;
+    }
+    .globoEstadisticas{
+        width: 121.61px;
+        height: 65.57px;
+        left: 296.98px;
+        top: 750.29px;        
+    }
+    .estadisticas{
+        width: 108px;
+        height: 60px;
+        left: 10px;
+        top: 5px;
+    }
+    .estadisticasTexto{
+        top: 70px;
+        left: 20px;
+    }
+    /*BENEFICIOS*/
+    .beneficios{
+        width: 90%;
+        position: absolute;
+        left: 25px;
+        top: 940px;
+        height: 798px;
+    }
+    .carrito{
+        width: 280px;
+        height: 300px;
+        margin-top: 490px;
+    }
+    .regtanguloAzul2{
+        left: 15.24px;
+        top: -15px;
+    }
+    .regtanguloRojo1{
+        position: absolute;
+        width: 23.32px;
+        height: 23.32px;
+        left: 85.24px;
+        top: 15px;    
+    }
+    .miniCuadradoAzul2{
+        width: 57.91px;
+        height: 57.91px;
+        left: 75%;
+        top: 759px;
+    }
+    .miniCuadradoRojo2{
+        width: 34.58px;
+        height: 34.58px;
+        left: 85%;
+        top: 729px;
+    }
+    .beneficiosTitulo{
+        width: 70%;
+        height: 70px;
+        left: 17.5%;
+        top: 46px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .tick1{
+        left: 10.23%;
+    }
+    .beneficio1{
+        left: 18.23%;
+        top: 17.59%;
+        font-size: 15px;
+        width: 80%;
+    }
+    .tick2{
+        left: 10.23%;
+        right: 10.23%;
+        top: 25.59%;
+    }
+    .beneficio2{
+        font-size: 15px;
+        left: 18.23%;
+        top: 25.59%;
+        width: 80%;
+    }
+    .tick3{
+        left: 10.23%;
+    }
+    .beneficio3{
+        font-size: 15px;
+        left: 18.23%;
+        top: 33.59%;
+        width: 80%;
+    }
+    .tick4{
+        left: 10.23%;
+        top: 33.59%;
+    }
+    .beneficio4{
+        font-size: 15px;
+        left: 18.23%;
+        top: 40.59%;
+        width: 80%;
+    }
+    /*PASOS*/
+    .pasosTitulo{
+        width: 70%;
+        left: 17.5%;
+        top: 1800px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .linea{
+        left: 120px;
+        width: 620px;
+        top: 1340px;
+    }
+    .primerPaso{
+        left: 110px;
+        width: 50px;
+        height: 50px;
+    }
+    .uno{
+        left: 126px;
+        top: 1320px;
+        font-size: 30px;
+    }
+    .unoDescripcion{
+        width: 150px;
+        left: 60px;
+        top: 1400px;
+        font-size: 15px;
+
+    }
+    .segundoPaso{
+        left: 400px;
+        width: 50px;
+        height: 50px;
+    }
+    .dos{
+        left: 416px;
+        top: 1320px;
+        font-size: 30px;
+    }
+    .dosDescripcion{
+        width: 150px;
+        left: 350px;
+        top: 1400px;
+        font-size: 15px;
+    }
+    .tercerPaso{
+        left: 690px;
+        width: 50px;
+        height: 50px;
+    }
+    .tres{
+        left: 706px;
+        top: 1320px;
+        font-size: 30px;
+    }
+    .tresDescripcion{
+        width: 150px;
+        left: 640px;
+        top: 1400px;
+        font-size: 15px;
+    }
+    /*TESTIMONIOS*/
+    .testimoniosTitulo{
+        left: 300px;
+    }
+    .testimoniosSubtitulo{
+        left: 100px;
+    }
+    .regtangle23{
+        width: 500px;
+        height:500px;
+        left: 250px;
+        top: 2200px;
+    }
+    .comillaVacia1{
+        left: 660px;
+        width: 50px;
+        height: 80px;
+        top: 2500px;
+    }
+    .comillaVacia2{
+        left: 720px;
+        width: 50px;
+        height: 80px;
+        top: 2500px;
+    }
+    .card1,.card2,.card3,.card4{
+        left: 150px;
+    }
+    .card2{
+        top: 2200px;
+    }
+    .card3{
+        top: 2550px;
+    }
+    .card4{
+        top: 2900px;
+    }
+    /*PREGUNTAS FRECUENTES*/
+    .preguntasFrecuentesTitulo{
+        left: 250px;
+        width: 500px;
+        top: 3300px;
+      }
+    .cuadraditoAzul4{
+        left: 670px;
+        top: 3530px;
+    }
+    .cuadraditoRojo4{
+        left: 630px;
+        top: 3500px;
+    }
+    .miniCuadradoAzul4{
+        left: 650px;
+    }
+    .miniCuadradoRojo4{
+        left: 600px;
+    }
+    .miniCuadrado1,.miniCuadrado2,.miniCuadrado3{
+        left: 30px;
+    }
+    .primerPregunta,.segundaPregunta,.tercerPregunta{
+        left: 60px;
+        font-size: 20px;
+    }
+    .primerRespuesta,.segundaRespuesta,.tercerRespuesta{
+        left: 60px;
+        font-size: 20px;
+        width: 600px;
+    }
+    /*PRIMER PREGUNTA*/
+    .miniCuadrado1,.primerPregunta{
+        top: 3400px;
+    }
+    .primerRespuesta{
+        top: 3450px;
+    }
+    /*SEGUNDA PREGUNTA*/
+    .miniCuadrado2,.segundaPregunta{
+        top: 3550px;
+    }
+    .segundaRespuesta{
+        top: 3600px;
+    }
+    /*TERCERA PREGUNTA*/
+    .miniCuadrado3,.tercerPregunta{
+        top: 3700px;
+    }
+    .tercerRespuesta{
+        top: 3750px;
+    }
+    .finRespuestas{
+        left: 200px;
+        width: 500px;
+        top: 3900px;
+    }
+    /*FOOTER*/
+    .fondoFooter{
+        width: 810px;
+        left: 0px;
+        top: 4150px;
+        height: 700px;
+    }
+    .imgFooter{
+        left: 200px;
+        top: 4000px;
+    }
+    .cuadraditoAzul4{
+        top: 4100px;
+        left: 50px;
+    }
+    .cuadraditoRojo4{
+        top: 4070px;
+        left: 110px;
+    }
+    .footerTitulo{
+        top: 4300px;
+        left: 10px;
+        font-size: 30px;
+    }
+    .datosContacto{
+        top: 4300px;
+        left: 500px;
+    }
+    .notebook{
+        top: 4450px;
+        left: 420px;
+    }
+    .instagram,.facebook,.linkedin{
+        top: 4430px;
+    }
+    .instagram{
+        left: 500px;
+    }
+    .linkedin{
+        left: 600px;
+    }
+    .facebook{
+        left: 700px;
+    }
+}
+      
