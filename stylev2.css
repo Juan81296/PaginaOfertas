@@ -6,12 +6,6 @@
     line-height: 144.69%;
     color: #2E3A59;
 }
-.carruselTestimonios{
-    visibility: hidden;
-}
-.testimoniosMovil{
-    visibility: hidden;
-}
 .nav-link{
     font-family: Roboto;
     font-style: normal;
@@ -940,7 +934,7 @@
  /*FOOTER*/
 .fondoFooter{
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 398px;
     top: 3720px;
     left: 236px;  
@@ -1302,7 +1296,7 @@
     }
     /*FOOTER*/
     .fondoFooter{
-        width: 810px;
+        width: 100%;
         left: 0px;
         top: 4150px;
         height: 700px;
@@ -1500,6 +1494,8 @@
     }
     .linea{
         visibility: hidden;
+        left: 0px;
+        width: 100%;
     }
     .primerPaso{
         left: 40%;
@@ -1576,24 +1572,23 @@
         text-align: center;
         padding: 0% 5%;
         top: 2850px;
+        font-size: 22px;
     }
     .regtangle23{
-        width: 500px;
-        height:500px;
-        left: 250px;
-        top: 2900px;
+        width: 250px;
+        height:250px;
+        left: 10%;
+        top: 3100px;
     }
     .comillaVacia1{
-        left: 360px;
-        width: 50px;
-        height: 80px;
+        left: 0px;
         top: 2950px;
+        visibility: hidden;
     }
     .comillaVacia2{
-        left: 280px;
-        width: 50px;
-        height: 80px;
+        left: 0px;
         top: 3000px;
+        visibility: hidden;
     }
     .card1,.card2,.card3,.card4{
         width: 90%;
@@ -1628,10 +1623,14 @@
         top:4350px;
       }
     .miniCuadradoAzul4{
-        left: 650px;
+        left: 60%;
+        top:4150px;
+        visibility: hidden;
     }
     .miniCuadradoRojo4{
-        left: 600px;
+        left: 75%;
+        top:4250px;
+        visibility: hidden;
     }
     .miniCuadrado1,.miniCuadrado2,.miniCuadrado3{
         left: 30px;
@@ -1682,7 +1681,7 @@
     }
     /*FOOTER*/
     .fondoFooter{
-        width: 810px;
+        width: 100%;
         left: 0px;
         top: 5600px;
         height: 500px;
@@ -1694,14 +1693,14 @@
         top: 5525px;
     }
     .cuadraditoAzul4{
-        /*top: 6100px;
-        left: 50px;*/
-        visibility: hidden;
+        top: 5600px;
+        left: 65%;
+        visibility: visible;
     }
     .cuadraditoRojo4{
-        /*top: 6070px;
-        left: 110px;*/
-        visibility: hidden;
+        top:  5570px;
+        left: 80%;
+        visibility: visible;
     }
     .footerTitulo{
         top: 5725px;
