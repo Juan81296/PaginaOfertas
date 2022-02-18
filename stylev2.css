@@ -6,6 +6,12 @@
     line-height: 144.69%;
     color: #2E3A59;
 }
+.carruselTestimonios{
+    visibility: hidden;
+}
+.testimoniosMovil{
+    visibility: hidden;
+}
 .nav-link{
     font-family: Roboto;
     font-style: normal;
@@ -27,12 +33,6 @@
     min-height: 100vh;
 }
 .header:before {
-    content: '';
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 .bg-light{
     position: fixed;
@@ -41,8 +41,9 @@
 }
 /*HEADER*/
 .titulo{
-    left: 80px;
-    top: 151px;
+    left: 0px;
+    width:100%;
+    top: 150px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
@@ -51,13 +52,13 @@
     color: #1581FA;
 }
 .subtitulo{
-    width: 522px;
-    left: 80px;
+    left: 0px;
+    width:100%;
     top: 121px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 40px;
     line-height: 126.69%;
     color: #2E3A59;
 }
@@ -473,9 +474,9 @@
 }
  .testimoniosTitulo{
     position: absolute;
-    width: 200px;
+    width: 100%;
     height: 52px;
-    left: 458px;
+    left: 0px;
     top: 1715px;
     font-family: Roboto;
     font-style: normal;
@@ -483,12 +484,14 @@
     font-size: 36px;
     line-height: 144.69%;
     color: #2E3A59;
+    text-align: center;
  }
  .testimoniosSubtitulo{
     position: absolute;
-    width: 700px;
+    text-align: center;
+    width: 100%;
     height: 35px;
-    left: 368px;
+    left: 0px;
     top: 1775px;
     font-family: Roboto;
     font-style: normal;
@@ -1149,6 +1152,7 @@
         top: 310px;
     }
     /*PASOS*/
+    
     .pasosTitulo{
         font-size: 30px;
         left: 250px;
@@ -1208,12 +1212,6 @@
         font-size: 15px;
     }
     /*TESTIMONIOS*/
-    .testimoniosTitulo{
-        left: 300px;
-    }
-    .testimoniosSubtitulo{
-        left: 100px;
-    }
     .regtangle23{
         width: 500px;
         height:500px;
@@ -1349,11 +1347,9 @@
 }
 @media only screen and (max-width:576px){
     .titulo{
-        width: 320px;
         font-size: 36px;
     }
     .subtitulo{
-        width: 360px;
         font-size: 36px;
     }
     .text-header{
@@ -1368,19 +1364,19 @@
     /*HEADER*/
     .regtangle1{
         position: absolute;
-        width: 310.59px;
-        height: 310.59px;
-        left: 2.929rem;
-        top: 30.988rem ;
+        width: 13.5rem;
+        height: 13.5rem;
+        left: 19.5%;
+        top: 475px;
         border-radius: 23.7256px;
-        transform: rotate(50.34deg);
+        transform: rotate(55.34deg);
     }
     .headerImg{
         position: absolute;
-        width: 403.76px;
-        height: 504.99px;
-        left: 22.63px;
-        top: 370.14px;
+        width: 75%;
+        height: 35%;
+        left:12.5%;
+        top: 425px;
     }
     .globoCliente{
         position: absolute;
@@ -1395,8 +1391,8 @@
     .globoEstadisticas{
         width: 121.61px;
         height: 65.57px;
-        left: 296.98px;
-        top: 750.29px;        
+        left: 55%;
+        top: 675px;        
     }
     .estadisticas{
         width: 108px;
@@ -1454,156 +1450,183 @@
     }
     .tick1{
         left: 10.23%;
+        top: 18%;
     }
     .beneficio1{
         left: 18.23%;
-        top: 17.59%;
+        top: 18%;
         font-size: 15px;
         width: 80%;
     }
     .tick2{
         left: 10.23%;
         right: 10.23%;
-        top: 25.59%;
+        top: 28%;
     }
     .beneficio2{
         font-size: 15px;
         left: 18.23%;
-        top: 25.59%;
+        top: 28%;
         width: 80%;
     }
     .tick3{
         left: 10.23%;
+        top: 38%;
     }
     .beneficio3{
         font-size: 15px;
         left: 18.23%;
-        top: 33.59%;
+        top: 38%;
         width: 80%;
     }
     .tick4{
         left: 10.23%;
-        top: 33.59%;
+        top: 48%;
     }
     .beneficio4{
         font-size: 15px;
         left: 18.23%;
-        top: 40.59%;
+        top: 48%;
         width: 80%;
     }
     /*PASOS*/
     .pasosTitulo{
-        width: 70%;
-        left: 17.5%;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
         top: 1800px;
         font-size: 24px;
-        text-align: center;
     }
     .linea{
-        left: 120px;
-        width: 620px;
-        top: 1340px;
+        visibility: hidden;
     }
     .primerPaso{
-        left: 110px;
-        width: 50px;
-        height: 50px;
+        left: 40%;
+        top: 1917.63px;
     }
     .uno{
-        left: 126px;
-        top: 1320px;
-        font-size: 30px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 1925.63px;
     }
     .unoDescripcion{
-        width: 150px;
-        left: 60px;
-        top: 1400px;
-        font-size: 15px;
-
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 2015px;
+        font-size: 18px;
     }
     .segundoPaso{
-        left: 400px;
-        width: 50px;
-        height: 50px;
+        left: 40%;
+        top: 2217.63px;
     }
     .dos{
-        left: 416px;
-        top: 1320px;
-        font-size: 30px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 2225.63px;
     }
     .dosDescripcion{
-        width: 150px;
-        left: 350px;
-        top: 1400px;
-        font-size: 15px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 2315px;
+        font-size: 18px;
     }
     .tercerPaso{
-        left: 690px;
-        width: 50px;
-        height: 50px;
+        left: 40%;
+        top: 2517.63px;
     }
     .tres{
-        left: 706px;
-        top: 1320px;
-        font-size: 30px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 2525.63px;
     }
     .tresDescripcion{
-        width: 150px;
-        left: 640px;
-        top: 1400px;
-        font-size: 15px;
+        top: 2615px;
+        font-size: 18px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
     }
     /*TESTIMONIOS*/
+    .carruselTestimonios{
+        visibility: visible;
+    }
     .testimoniosTitulo{
-        left: 300px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 2800px;
+        font-size: 24px;
     }
     .testimoniosSubtitulo{
-        left: 100px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top: 2850px;
     }
     .regtangle23{
         width: 500px;
         height:500px;
         left: 250px;
-        top: 2200px;
+        top: 2900px;
     }
     .comillaVacia1{
-        left: 660px;
+        left: 360px;
         width: 50px;
         height: 80px;
-        top: 2500px;
+        top: 2950px;
     }
     .comillaVacia2{
-        left: 720px;
+        left: 280px;
         width: 50px;
         height: 80px;
-        top: 2500px;
+        top: 3000px;
     }
     .card1,.card2,.card3,.card4{
-        left: 150px;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+    }
+    .card1{
+        top: 2950px;
     }
     .card2{
-        top: 2200px;
+        top: 3300px;
     }
     .card3{
-        top: 2550px;
+        top: 3650px;
     }
     .card4{
-        top: 2900px;
+        top: 4000px;
+    }
+    .card1Descripcion,.card2Descripcion,.card3Descripcion,.card4Descripcion{
+        width: 85%;
+        font-size: 15px;
+    }
+    .card3Cliente,.card2Cliente,.card1Cliente,.card4Cliente{
+        width: 90%;
     }
     /*PREGUNTAS FRECUENTES*/
     .preguntasFrecuentesTitulo{
-        left: 250px;
-        width: 500px;
-        top: 3300px;
+        left: 0px;
+        width:100%;
+        text-align: center;
+        padding: 0% 5%;
+        top:4350px;
       }
-    .cuadraditoAzul4{
-        left: 670px;
-        top: 3530px;
-    }
-    .cuadraditoRojo4{
-        left: 630px;
-        top: 3500px;
-    }
     .miniCuadradoAzul4{
         left: 650px;
     }
@@ -1612,85 +1635,111 @@
     }
     .miniCuadrado1,.miniCuadrado2,.miniCuadrado3{
         left: 30px;
+        position: absolute;
+        width: 20.51px;
+        height: 20.51px;
     }
     .primerPregunta,.segundaPregunta,.tercerPregunta{
-        left: 60px;
-        font-size: 20px;
+        left: 35px;
+        width:90%;
+        text-align: center;
+        padding: 0% 5%;
+        font-size: 18px;
     }
     .primerRespuesta,.segundaRespuesta,.tercerRespuesta{
-        left: 60px;
+        left: 0px;
+        width:100%;
+        padding: 0% 5%;
         font-size: 20px;
-        width: 600px;
+        text-align: center;
     }
     /*PRIMER PREGUNTA*/
     .miniCuadrado1,.primerPregunta{
-        top: 3400px;
+        top: 4550px;
     }
     .primerRespuesta{
-        top: 3450px;
+        top: 4650px;
     }
     /*SEGUNDA PREGUNTA*/
     .miniCuadrado2,.segundaPregunta{
-        top: 3550px;
+        top: 4750px;
     }
     .segundaRespuesta{
-        top: 3600px;
+        top: 4850px;
     }
     /*TERCERA PREGUNTA*/
     .miniCuadrado3,.tercerPregunta{
-        top: 3700px;
+        top: 4950px;
     }
     .tercerRespuesta{
-        top: 3750px;
+        top: 5050px;
     }
     .finRespuestas{
-        left: 200px;
-        width: 500px;
-        top: 3900px;
+        left: 0px;
+        width: 100%;
+        top: 5300px;
+        padding: 0% 5%;
     }
     /*FOOTER*/
     .fondoFooter{
         width: 810px;
         left: 0px;
-        top: 4150px;
-        height: 700px;
+        top: 5600px;
+        height: 500px;
     }
     .imgFooter{
-        left: 200px;
-        top: 4000px;
+        width: 275px;
+        height: 183.14px;
+        left: -37px;
+        top: 5525px;
     }
     .cuadraditoAzul4{
-        top: 4100px;
-        left: 50px;
+        /*top: 6100px;
+        left: 50px;*/
+        visibility: hidden;
     }
     .cuadraditoRojo4{
-        top: 4070px;
-        left: 110px;
+        /*top: 6070px;
+        left: 110px;*/
+        visibility: hidden;
     }
     .footerTitulo{
-        top: 4300px;
-        left: 10px;
-        font-size: 30px;
+        top: 5725px;
+        left: 0px;
+        font-size: 24px;
+        padding: 0% 5%;
+        width: 100%;
     }
     .datosContacto{
-        top: 4300px;
-        left: 500px;
+        top:5800px;
+        font-size: 18px;
+        left: 0px;
+        padding: 0% 5%;
+        width: 50%;
     }
     .notebook{
-        top: 4450px;
-        left: 420px;
+        width: 60%;
+        height: 161.66px;
+        left: 40%;
+        top: 5900px;
     }
     .instagram,.facebook,.linkedin{
-        top: 4430px;
+        top: 5900px;
     }
     .instagram{
-        left: 500px;
+        width: 22px;
+        height: 22px;
+        left: 20px;
     }
     .linkedin{
-        left: 600px;
+        width: 22px;
+        height: 22px;
+        left: 60px;
     }
     .facebook{
-        left: 700px;
+        width: 22px;
+        height: 22px;
+        left: 100px;
     }
 }
       
