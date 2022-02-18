@@ -108,7 +108,7 @@
     left: 1037.55px;
     top: 126.05px;
     background: #1581FA;
-    border-radius: 42.3351px;
+    border-radius: 42.3350px;
     transform: rotate(59.34deg);
 }
 .globoCliente{
@@ -1711,7 +1711,7 @@
         width: 100%;
     }
     .datosContacto{
-        top:5800px;
+        top:5825px;
         font-size: 18px;
         left: 0px;
         padding: 0% 5%;
@@ -1724,7 +1724,7 @@
         top: 5900px;
     }
     .instagram,.facebook,.linkedin{
-        top: 5900px;
+        top: 5950px;
     }
     .instagram{
         width: 22px;
